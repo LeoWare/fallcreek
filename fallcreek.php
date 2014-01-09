@@ -144,6 +144,8 @@
 			</div>
 			<p class="stats"><span class="page_gen">Page generated in {%page_gen} seconds.</span>
 			<span class="mem_usage">Memory Usage: {%mem_usage} MiB.</span></p>
+			
+			<a href="https://github.com/LeoWare"><img style="position: absolute; top: 0; right: 0; border: none;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
 		</div>
 	</body>
 </html>
