@@ -122,6 +122,16 @@
 				});
 			});
 		</script>
+		
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-45512702-1', 'samuelraynor.com');
+			ga('send', 'pageview');
+		</script>
 	</head>
 	<body>
 		<div class="container">
@@ -146,11 +156,11 @@
 	$page_end = microtime(true);
 	
 	// Figure time
-	$page_time = number_format($page_end - $page_start, 4);
+	$page_time = number_format($page_end - $page_start, 6);
 	
 	// Get memory usage
 	// memory_get_usage returns bytes. 1068576 = 1MiB
-	$mem_usage = number_format(memory_get_usage()/1068756, 2);
+	$mem_usage = number_format(memory_get_usage()/1068756, 4);
 	
 	// Add in the page time and memory usage.
 	$content = str_replace(array("{%page_gen}","{%mem_usage}"), 
