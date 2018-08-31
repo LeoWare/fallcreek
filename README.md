@@ -1,9 +1,9 @@
 fallcreek
 =========
 
-##Application project for Web Development in Fall Creek, OR
+## Application project for Web Development in Fall Creek, OR
 
-###Requirements:
+### Requirements:
 1. Setup a small PHP application that echos the page
 generation time and how much memory it took to generate
 (demonstrates PHP skills - bonus points for using
